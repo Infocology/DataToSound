@@ -25,7 +25,7 @@ print scale
 
 
 song = wave.open('song_exp.wav', 'w')
-song.setparams((2, 2, 882, 0, 'NONE', 'not compressed'))
+song.setparams((2, 2, 8820, 0, 'NONE', 'not compressed'))
 
 cb = CyclicBuffer(size=3)
 
